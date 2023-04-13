@@ -1,0 +1,24 @@
+# Ignore Terraform state files
+*.tfstate
+*tfstate.backup
+*tfstate
+*tfstate.lock.info
+
+# Ignore variable files with sensitive information
+*.auto.tfvars
+
+# Ignore private keys and certificates
+*.pem
+*.cer
+*.crt
+
+# Ignore log and output files
+*.log
+*.out
+
+# Ignore sensitive env files
+.env
+.envrc
+
+# Ignore cached provider plugins and modules dir
+web_app/.terraform/
