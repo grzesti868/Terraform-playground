@@ -6,6 +6,7 @@
 
 # Ignore variable files with sensitive information
 *.auto.tfvars
+*.terraform.lock.hcl
 
 # Ignore private keys and certificates
 *.pem
